@@ -1,0 +1,194 @@
+/* .navbar ul {
+  height: 40px !important;
+} */
+.trust-seal-list {
+  list-style: none;
+  padding: 0px;
+  margin-bottom: 20px;
+}
+.trust-seal-list li {
+  border: 1px solid black;
+  padding: 10px;
+}
+.productInfor_contain {
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 30px;
+  background-color: #fff;
+}
+.product-details {
+  display: flex;
+  gap: 60px;
+  /* justify-content: space-between; */
+}
+
+.product-images {
+  width: 380px;
+  position: relative;
+  overflow: hidden;
+}
+
+.product-images img {
+  width: auto;
+  height: 380px;
+  max-width: 380px;
+  max-height: 380px;
+  object-fit: contain;
+}
+
+.product-info {
+  width: 50%;
+}
+
+.product-info h2 {
+  margin-top: 0;
+}
+
+.product-info p {
+  margin-bottom: 20px;
+}
+.price_new {
+  font-weight: 600;
+  color: red;
+}
+.price_old {
+  text-decoration: line-through;
+  color: #888;
+}
+.discount {
+  font-weight: 600;
+  color: green;
+}
+#quantity {
+  width: 50px;
+  height: 30px;
+  margin: 0px 20px;
+  text-align: center;
+}
+.product-description {
+  margin-top: 20px;
+}
+
+.product-buttons {
+  display: flex;
+  margin-top: 20px;
+}
+.infor {
+  margin: 20px 0px;
+}
+.product-buttons button {
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 10px 40px;
+  background-color: red;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+}
+.quantity {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #beb6b6;
+}
+.slide-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%; /* Tỷ lệ khung hình vuông (1:1) */
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.prev-button1,
+.next-button1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  background-color: transparent;
+  border: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.prev-button1 {
+  left: 10px;
+}
+
+.next-button1 {
+  right: 10px;
+}
+.custom-table {
+  width: 100%;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.custom-table th {
+  background-color: #f2f2f2;
+}
+/* CSS cho phần bình luận */
+.comment-form {
+  margin-bottom: 20px;
+}
+
+.comment-form textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.comment {
+  margin-bottom: 20px;
+}
+
+.comment-list {
+  list-style: none;
+  padding: 0;
+}
+
+.comment {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
+}
+
+.comment .author {
+  font-weight: bold;
+}
+
+.comment .timestamp {
+  font-style: italic;
+  font-size: 0.8em;
+  color: #888;
+  margin-left: 50px;
+}
+
+.comment .content {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+.submit_comment {
+  padding: 10px;
+  width: 150px;
+  background-color: blue;
+  font-weight: 600;
+  color: white;
+  border: none;
+}

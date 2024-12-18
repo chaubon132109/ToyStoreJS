@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+.content_login {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  line-height: 40px;
+}
+.content_login-label {
+  letter-spacing: 2px;
+}
+.content_login .content_login-signup a {
+  color: black;
+  font-weight: 600;
+}
+.content_login .content_login-signup a:hover {
+  color: red;
+}
+.content_login form {
+  margin-top: 20px;
+}
+.username-label {
+  font-weight: 600;
+}
+#username {
+  box-sizing: border-box;
+  padding: 15px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.password-label {
+  font-weight: 600;
+}
+#password {
+  padding: 15px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.forget_password {
+  font-size: 16px;
+}
+.button_login {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  background-color: red;
+  color: aliceblue;
+  font-weight: 600;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+/* Login admin */
+.login_admin {
+  background-image: url("../img/background_admin.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.content_login {
+  max-width: 400px; /* Chiều rộng tối đa của form */
+  margin: 0 auto; /* Căn giữa form */
+  padding: 20px; /* Khoảng đệm bên trong */
+  border-radius: 8px; /* Bo tròn các góc */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+  background-color: #ffffff; /* Màu nền trắng */
+}
+
+.username-label,
+.password-label {
+  margin-bottom: 8px; /* Khoảng cách giữa label và input */
+  font-weight: bold; /* Làm cho chữ đậm */
+}
+
+.input-field {
+  width: 100%; /* Chiếm toàn bộ chiều rộng của form */
+  padding: 10px; /* Khoảng đệm bên trong */
+  margin-bottom: 20px; /* Khoảng cách dưới mỗi ô input */
+  border: 1px solid #ccc; /* Đường viền màu xám */
+  border-radius: 4px; /* Bo tròn các góc */
+  font-size: 16px; /* Kích thước chữ */
+  transition: border-color 0.3s; /* Hiệu ứng chuyển màu đường viền */
+}
+
+.input-field:focus {
+  border-color: #007bff; /* Đổi màu đường viền khi focus */
+  outline: none; /* Ẩn viền khi focus */
+}
+
+.button_login {
+  width: 100%; /* Chiếm toàn bộ chiều rộng của form */
+  padding: 10px; /* Khoảng đệm bên trong */
+  background-color: #007bff; /* Màu nền nút */
+  color: white; /* Màu chữ */
+  border: none; /* Không có đường viền */
+  border-radius: 4px; /* Bo tròn các góc */
+  font-size: 16px; /* Kích thước chữ */
+  cursor: pointer; /* Hiệu ứng con trỏ khi hover */
+  transition: background-color 0.3s; /* Hiệu ứng chuyển màu nền */
+}
+
+.button_login:hover {
+  background-color: #0056b3; /* Đổi màu nền khi hover */
+}
+
+.error-message {
+  color: red; /* Màu chữ thông báo lỗi */
+  margin-top: 10px; /* Khoảng cách phía trên thông báo lỗi */
+}

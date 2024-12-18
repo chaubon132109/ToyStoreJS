@@ -1,0 +1,25 @@
+export const MONTH = [
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "May",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sep",
+  "Oct",
+  "Nov",
+  "Dec",
+];
+export const ORDER_STATUS = {
+  100: "Chưa thanh toán",
+  105: "Đang chờ xử lý",
+  111: "Đang chờ giao hàng",
+  112: "Đang chờ lấy hàng",
+  114: "Đang giao một phần",
+  121: "Đang vận chuyển",
+  122: "Đã giao hàng",
+  130: "Hoàn thành",
+  140: "Đã hủy",
+};

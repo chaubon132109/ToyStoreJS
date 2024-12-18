@@ -1,0 +1,14 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "editor.wordWrap": "on",
+  "window.openFilesInNewWindow": "on",
+  "editor.tabSize": 2,
+  "editor.minimap.showSlider": "always",
+  "workbench.editor.showTabs": "multiple",
+  "editor.fontSize": 14,
+  "eslint.format.enable": true,
+  "editor.formatOnSave": true
+}

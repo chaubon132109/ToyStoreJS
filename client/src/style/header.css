@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: aliceblue;
+}
+.header {
+  width: 100%;
+}
+.header_top {
+  background-color: #4e60e9;
+  width: 100%;
+  line-height: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.header_top--hotline {
+  display: flex;
+  margin-left: 10px;
+}
+.phone_number {
+  color: white;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.header_top--store {
+  display: flex;
+  margin-right: 10px;
+}
+.store_location {
+  color: white;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.header_mid {
+  margin: 25px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.header_mid_logo {
+  height: 50px;
+}
+.header_mid--search-bar {
+  width: 50%;
+  text-align: center;
+}
+.search_input {
+  height: 40px;
+  padding-left: 10px;
+  width: 60%;
+}
+.search_submit {
+  cursor: pointer;
+  height: 46px;
+  padding: 12px;
+  width: 10%;
+  margin-left: 10px;
+  border: none;
+}
+.header_account {
+  width: 18%;
+  line-height: 54px;
+  display: flex;
+  justify-content: space-between;
+}
+.header_account a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+/* Navbar menu */
+.navbar {
+  height: 50px;
+}
+.navbar ul {
+  list-style: none;
+  background-color: #f04e47;
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+.navbar li {
+  float: left;
+  width: 200px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: aliceblue;
+  padding: 17px 40px;
+  line-height: 40px;
+}
+
+/*Sub Menu*/
+.dropdown {
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f04e47;
+  min-width: 160px;
+  z-index: 1;
+  margin-top: 5px;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: green;
+}
+.user {
+  position: relative;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  min-width: 160px;
+  background-color: #f52727;
+  list-style-type: none;
+}
+
+.user:hover .submenu {
+  display: block;
+}
+.user .submenu li a {
+  padding: 10px;
+  color: aliceblue;
+}
+.user .submenu li:hover {
+  background-color: rgb(31, 233, 68);
+}
+.slideshow-container {
+  width: 100%;
+  height: 555px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
+.login:hover {
+  cursor: pointer;
+}
